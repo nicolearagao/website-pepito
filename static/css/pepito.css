@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap');
+ /*     font-family: 'Lato', sans-serif;
+
+        font-family: 'Roboto', sans-serif; */
+ 
+ 
+ html{
+    font-size: 20px;
+   
+}
+
+#main{
+        background-color: beige;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #deb887;
+        border-radius: 15px;
+
+    }
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.2;
+    text-align: center;
+    color:brown;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 2rem;
+    font-family:'Lato', sans-serif; 
+}
+
+footer{
+    width: 662px;
+    height: 560px;
+    content: "";
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+ }
+
+ img{
+     max-width: 100%;
+     display: block;
+     height: auto;
+     width:  auto;
+     margin-right: auto;
+     margin-left:auto;
+     
+ }
+
+ #image{
+     background-color: rgba(211, 160, 95, 0.7);
+     padding: 20px;
+     margin: 0;
+     border-radius: 50%;
+     display:block;
+     margin-right: auto;
+     margin-left: auto;
+     }
+
+    
+ #headline{
+     margin: 35px 0;
+     text-align:center;
+ }
+    
+ul{
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    text-align:left;
+    line-height: 2;
+}
+
+li{
+    margin: 15px 0;
+}
+    
+a{
+    color: #3269a8
+
+}
+a:visited{
+    color: #32a881;
+}
+
+.videos{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    width: 50%;
+    height:auto;   
+    border: 10px groove #D3A05F;
+    padding: auto;
+
+}
+
+#tribute-info{
+    font-family:'Lato', sans-serif;
+}
+
+#album{
+    font-family:'Lato', sans-serif;
+    font-size: 0.8rem;
+}
+

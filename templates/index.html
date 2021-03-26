@@ -4,8 +4,9 @@
  <meta charset= "utf-8">
  <meta name= "author" meta content="Nicole dos Anjos Aragao">
  <meta name= "description" meta content="This is a tribute to the best dog of all times, Mr Pepito.">
- <link rel="shortcut icon" href="pepito.ico" type="image/x-icon"> 
- <link rel="stylesheet" href="pepito.css">
+ <link rel="shortcut icon" href="{{url_for('static', filename='image/pepito.ico')}}" type="image/x-icon">
+<link rel="stylesheet" href="{{url_for('static', filename='css/pepito.css' )}}">
+
  <title> Pepito, the great!</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
   <h1 id= "title"> &#9829Pepito, Pep, Bebinho, Bebitinho&#9829 </h1>
 <p>Not just a cute dog</p>
 <div id="img-div">
-<img id="image" src="pepitojanela.jpg" alt="Cute dog looking outside the window of a house in a farm">
+<img id="image" src=" {{url_for('static', filename='image/pepitojanela.jpg')}}" alt="Cute dog looking outside the window of a house in a farm">
 </div>
 
 
@@ -35,11 +36,11 @@
 </div>
 <div class="videos">
 <video controls width="380px" height="300px">
-    <source src="video1.mp4" type="video/mp4">
+    <source src="{{url_for('static', filename= 'video/video1.mp4')}}" type="video/mp4">
 </video>
 
 <video controls width="380px" height="300px">
-    <source src="video2.mp4" type="video/mp4">
+    <source src="{{url_for('static', filename= 'video/video2.mp4')}}"type="video/mp4">
 </video>
 
 </div>
